@@ -1,5 +1,5 @@
 context:
-  version: "0.10.0"
+  version: "0.11.0"
 
 package:
   name: diffnav
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dlvhdr/diffnav/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 29f988889d921bcd92509171885669dc253b4727f13d461f272fe1450a86ef2f
+  sha256: df3879b12275bed16065ad9c08107c874445d265aa1fdc51d5f66a1f2fb7f392
   target_directory: src
 
 build:
